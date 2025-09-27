@@ -1,0 +1,64 @@
+# Site settings
+locale: en
+title: Security Labs Notes
+name: Security Labs Notes
+subtitle: Pentesting writeups and notes
+url: "" # set on GitHub later, e.g., https://<user>.github.io
+baseurl: "" # repository project pages can set this to repo name
+
+# Theme
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: dark
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+# Author profile
+author:
+  name: leprof
+  avatar: /assets/images/avatar.png
+  bio: |
+    Notes and writeups from HackTheBox, TryHackMe, and more.
+  links:
+    - label: GitHub
+      icon: fab fa-github
+      url: https://github.com/
+    - label: Twitter
+      icon: fab fa-x-twitter
+      url: https://twitter.com/
+
+# Navigation
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:title/
+
+paginate: 5
+paginate_path: "/page:num/"
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+
+# Footer
+footer:
+  links:
+    - label: GitHub
+      icon: fab fa-github
+      url: https://github.com/
+    - label: RSS
+      icon: fas fa-rss
+      url: /feed.xml
