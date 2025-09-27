@@ -5,6 +5,7 @@ name: Security Labs Notes
 subtitle: Pentesting writeups and notes
 url: "" # set on GitHub later, e.g., https://<user>.github.io
 baseurl: "" # repository project pages can set this to repo name
+repository: leprof/security-labs-notes
 
 # Theme
 remote_theme: mmistakes/minimal-mistakes
