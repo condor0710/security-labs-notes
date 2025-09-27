@@ -28,3 +28,9 @@ The app reflected the uploaded filename into the page `src` attribute unsafely. 
 ```html
 "a" onerror=alert(1) x="b.png
 ```
+
+## References
+
+- [vavkamil/xss2png on GitHub](https://github.com/vavkamil/xss2png)
+- [HackerOne Report #964550](https://hackerone.com/reports/964550)
+- [From PNG to XSS on Medium](https://medium.com/@rashith6384/from-png-to-xss-how-i-tricked-a-web-app-into-executing-my-payload-c66f5a990195)
