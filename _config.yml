@@ -3,9 +3,9 @@ locale: en
 title: Security Labs Notes
 name: Security Labs Notes
 subtitle: Pentesting writeups and notes
-url: "" # set on GitHub later, e.g., https://<user>.github.io
-baseurl: "" # repository project pages can set this to repo name
-repository: leprof/security-labs-notes
+url: "https://condor0710.github.io"
+baseurl: "/security-labs-notes"
+repository: "condor0710/security-labs-notes"
 
 # Theme
 remote_theme: mmistakes/minimal-mistakes
